@@ -1,0 +1,181 @@
+{
+    "chefs": [
+        {
+            "id": 1,
+            "name": "Chef John",
+            "experience": "10 years",
+            "recipes": 50,
+            "date": "2023-09-01",
+            "category": "Italian",
+            "picture": "chef_john.jpg",
+            "likes": 300,
+            "description": "Passionate about Italian cuisine."
+        },
+        {
+            "id": 2,
+            "name": "Chef Sarah",
+            "experience": "8 years",
+            "recipes": 40,
+            "date": "2023-09-02",
+            "category": "Mexican",
+            "picture": "chef_sarah.jpg",
+            "likes": 250,
+            "description": "Bringing the flavors of Mexico to your kitchen."
+        },
+        {
+            "id": 3,
+            "name": "Chef David",
+            "experience": "12 years",
+            "recipes": 60,
+            "date": "2023-09-03",
+            "category": "French",
+            "picture": "chef_david.jpg",
+            "likes": 400,
+            "description": "Creating exquisite French dishes with a modern twist."
+        },
+        {
+            "id": 4,
+            "name": "Chef Emily",
+            "experience": "6 years",
+            "recipes": 30,
+            "date": "2023-09-04",
+            "category": "Japanese",
+            "picture": "chef_emily.jpg",
+            "likes": 150,
+            "description": "Mastering the art of Japanese cuisine."
+        },
+        {
+            "id": 5,
+            "name": "Chef Michael",
+            "experience": "15 years",
+            "recipes": 70,
+            "date": "2023-09-05",
+            "category": "Indian",
+            "picture": "chef_michael.jpg",
+            "likes": 500,
+            "description": "Savor the flavors of India with Chef Michael."
+        },
+        {
+            "id": 6,
+            "name": "Chef Laura",
+            "experience": "9 years",
+            "recipes": 45,
+            "date": "2023-09-06",
+            "category": "Chinese",
+            "picture": "chef_laura.jpg",
+            "likes": 280,
+            "description": "Exploring the diverse world of Chinese cuisine."
+        }
+    ],
+    "recipes": [
+        {
+            "id": 7,
+            "chefName": "Chef John",
+            "recipeName": "Spaghetti Carbonara",
+            "ingredients": [
+                "Spaghetti",
+                "Eggs",
+                "Pancetta",
+                "Parmesan cheese",
+                "Black pepper"
+            ],
+            "cookingMethod": "Boil spaghetti, fry pancetta, mix eggs and cheese, combine all ingredients.",
+            "rating": 4.7,
+            "isFavorite": false,
+            "category": "Pasta",
+            "description": "A classic Italian pasta dish with creamy egg and cheese sauce.",
+            "foodPhotoUrl": "./assets/SpaghettiCarbonara.jpg"
+        },
+        {
+            "id": 8,
+            "chefName": "Chef John",
+            "recipeName": "Margherita Pizza",
+            "ingredients": [
+                "Pizza dough",
+                "Tomato sauce",
+                "Mozzarella cheese",
+                "Fresh basil",
+                "Olive oil"
+            ],
+            "cookingMethod": "Roll out dough, add sauce and toppings, bake in oven.",
+            "rating": 4.8,
+            "isFavorite": false,
+            "category": "Pizza",
+            "description": "A simple yet delicious pizza with tomato, mozzarella, and basil.",
+            "foodPhotoUrl": "./assets/MargheritaPizza.jpg"
+        },
+        {
+            "id": 9,
+            "chefName": "Chef John",
+            "recipeName": "Tiramisu",
+            "ingredients": [
+                "Ladyfingers",
+                "Mascarpone cheese",
+                "Espresso",
+                "Cocoa powder",
+                "Sugar"
+            ],
+            "cookingMethod": "Dip ladyfingers in espresso, layer with cheese mixture, dust with cocoa powder.",
+            "rating": 4.9,
+            "isFavorite": false,
+            "category": "Dessert",
+            "description": "An irresistible Italian dessert with layers of coffee-soaked biscuits and mascarpone.",
+            "foodPhotoUrl": "./assets/Tiramisu.jpg"
+        },
+        {
+            "id": 10,
+            "chefName": "Chef Sarah",
+            "recipeName": "Guacamole",
+            "ingredients": [
+                "Avocados",
+                "Lime juice",
+                "Tomatoes",
+                "Onions",
+                "Cilantro"
+            ],
+            "cookingMethod": "Mash avocados, add remaining ingredients, mix well.",
+            "rating": 4.6,
+            "isFavorite": false,
+            "category": "Appetizer",
+            "description": "A fresh and zesty Mexican dip made with ripe avocados.",
+            "foodPhotoUrl": "./assets/Guacamole.jpg"
+        },
+        {
+            "id": 11,
+            "chefName": "Chef Sarah",
+            "recipeName": "Taco Salad",
+            "ingredients": [
+                "Ground beef",
+                "Lettuce",
+                "Tomatoes",
+                "Cheese",
+                "Taco seasoning"
+            ],
+            "cookingMethod": "Cook beef, assemble salad with ingredients, season with taco seasoning.",
+            "rating": 4.5,
+            "isFavorite": false,
+            "category": "Salad",
+            "description": "A hearty salad with seasoned ground beef and classic taco toppings.",
+            "foodPhotoUrl": "./assets/tacoSalad.jpg"
+        },
+        {
+            "id": 12,
+            "chefName": "Chef Sarah",
+            "recipeName": "Churros",
+            "ingredients": [
+                "Flour",
+                "Water",
+                "Sugar",
+                "Cinnamon",
+                "Chocolate sauce"
+            ],
+            "cookingMethod": "Mix dough, pipe into churros, fry, roll in sugar-cinnamon mixture, serve with chocolate sauce.",
+            "rating": 4.7,
+            "isFavorite": false,
+            "category": "Dessert",
+            "description": "Delicious fried dough sticks with a hint of cinnamon, perfect with chocolate dipping sauce.",
+            "foodPhotoUrl": "./assets/churrosDessert.jpg"
+        }
+        
+    ]
+}

@@ -12,22 +12,4 @@ body {
 }
 
 /* Mobile (Small Screens) */
-@media (max-width: 767px) {
-  body {
-    max-width: 95%; /* Adjust the maximum width for small screens */
-  }
-}
 
-/* Tablet (Medium Screens) */
-@media (min-width: 768px) and (max-width: 1023px) {
-  body {
-    max-width: 768px; /* Adjust the maximum width for tablets */
-  }
-}
-
-/* Desktop (Large Screens) */
-@media (min-width: 1024px) {
-  body {
-    max-width: 1280px; /* Adjust the maximum width for desktops */
-  }
-}
